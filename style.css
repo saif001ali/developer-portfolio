@@ -8,7 +8,7 @@ h1 {
 .orange-color {
     color: orange;
 }
-section {
+.flex-banner {
     display: flex;
     padding: 10px;
 }
@@ -34,4 +34,32 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-item {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    box-shadow: 10px 10px 40px grey;
+}
+#border {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 4;
+}
+#border2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 8;
+}
+hr {
+    border: 3px solid tomato;
+}
+footer p {
+    text-align: center;
 }
